@@ -862,20 +862,6 @@ alias usb:v1546p0503d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403p7150d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403p7151d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v1CD7p0217d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
-alias usb:v09FBp6022d*dc*dsc*dp*ic*isc*ip*in01* ftdi_sio
-alias usb:v09FBp6025d*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
-alias usb:v09FBp6026d*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
-alias usb:v09FBp6026d*dc*dsc*dp*ic*isc*ip*in03* ftdi_sio
-alias usb:v09FBp6029d*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
-alias usb:v09FBp602Ad*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
-alias usb:v09FBp602Ad*dc*dsc*dp*ic*isc*ip*in03* ftdi_sio
-alias usb:v09FBp602Cd*dc*dsc*dp*ic*isc*ip*in01* ftdi_sio
-alias usb:v09FBp602Dd*dc*dsc*dp*ic*isc*ip*in01* ftdi_sio
-alias usb:v09FBp602Dd*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
-alias usb:v09FBp602Ed*dc*dsc*dp*ic*isc*ip*in01* ftdi_sio
-alias usb:v09FBp602Ed*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
-alias usb:v09FBp602Ed*dc*dsc*dp*ic*isc*ip*in03* ftdi_sio
-alias usb:v0403pF458d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0BDBp*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v1BC7p0036d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v413Cp81BBd*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
@@ -914,7 +900,6 @@ alias usb:v17EFp3054d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp3062d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp3069d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp3082d*dc*dsc*dp*ic*isc*ip*in* r8152
-alias usb:v17EFp3098d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp7205d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp720Cd*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp7214d*dc*dsc*dp*ic*isc*ip*in* r8152
@@ -1125,7 +1110,6 @@ alias usb:v076Dp0006d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v17EFp7000d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v0870p0001d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v045Bp023Cd*dc*dsc*dp*ic*isc*ip*in* cdc_acm
-alias usb:v045Bp0247d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v045Bp0248d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v045Bp024Dd*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v0E8Dp0003d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
