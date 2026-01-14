@@ -30,13 +30,14 @@
 #define OFF_ieee1394_device_id_model_id 8 /* offsetof(struct ieee1394_device_id, model_id) */
 #define OFF_ieee1394_device_id_specifier_id 12 /* offsetof(struct ieee1394_device_id, specifier_id) */
 #define OFF_ieee1394_device_id_version 16 /* offsetof(struct ieee1394_device_id, version) */
-#define SIZE_pci_device_id 32 /* sizeof(struct pci_device_id) */
+#define SIZE_pci_device_id 40 /* sizeof(struct pci_device_id) */
 #define OFF_pci_device_id_vendor 0 /* offsetof(struct pci_device_id, vendor) */
 #define OFF_pci_device_id_device 4 /* offsetof(struct pci_device_id, device) */
 #define OFF_pci_device_id_subvendor 8 /* offsetof(struct pci_device_id, subvendor) */
 #define OFF_pci_device_id_subdevice 12 /* offsetof(struct pci_device_id, subdevice) */
 #define OFF_pci_device_id_class 16 /* offsetof(struct pci_device_id, class) */
 #define OFF_pci_device_id_class_mask 20 /* offsetof(struct pci_device_id, class_mask) */
+#define OFF_pci_device_id_override_only 32 /* offsetof(struct pci_device_id, override_only) */
 #define SIZE_ccw_device_id 16 /* sizeof(struct ccw_device_id) */
 #define OFF_ccw_device_id_match_flags 0 /* offsetof(struct ccw_device_id, match_flags) */
 #define OFF_ccw_device_id_cu_type 2 /* offsetof(struct ccw_device_id, cu_type) */
@@ -115,7 +116,7 @@
 #define OFF_virtio_device_id_vendor 4 /* offsetof(struct virtio_device_id, vendor) */
 #define SIZE_hv_vmbus_device_id 24 /* sizeof(struct hv_vmbus_device_id) */
 #define OFF_hv_vmbus_device_id_guid 0 /* offsetof(struct hv_vmbus_device_id, guid) */
-#define SIZE_rpmsg_device_id 32 /* sizeof(struct rpmsg_device_id) */
+#define SIZE_rpmsg_device_id 40 /* sizeof(struct rpmsg_device_id) */
 #define OFF_rpmsg_device_id_name 0 /* offsetof(struct rpmsg_device_id, name) */
 #define SIZE_i2c_device_id 32 /* sizeof(struct i2c_device_id) */
 #define OFF_i2c_device_id_name 0 /* offsetof(struct i2c_device_id, name) */
@@ -194,5 +195,19 @@
 #define OFF_wmi_device_id_guid_string 0 /* offsetof(struct wmi_device_id, guid_string) */
 #define SIZE_mhi_device_id 40 /* sizeof(struct mhi_device_id) */
 #define OFF_mhi_device_id_chan 0 /* offsetof(struct mhi_device_id, chan) */
+#define SIZE_auxiliary_device_id 40 /* sizeof(struct auxiliary_device_id) */
+#define OFF_auxiliary_device_id_name 0 /* offsetof(struct auxiliary_device_id, name) */
+#define SIZE_ssam_device_id 16 /* sizeof(struct ssam_device_id) */
+#define OFF_ssam_device_id_match_flags 0 /* offsetof(struct ssam_device_id, match_flags) */
+#define OFF_ssam_device_id_domain 1 /* offsetof(struct ssam_device_id, domain) */
+#define OFF_ssam_device_id_category 2 /* offsetof(struct ssam_device_id, category) */
+#define OFF_ssam_device_id_target 3 /* offsetof(struct ssam_device_id, target) */
+#define OFF_ssam_device_id_instance 4 /* offsetof(struct ssam_device_id, instance) */
+#define OFF_ssam_device_id_function 5 /* offsetof(struct ssam_device_id, function) */
+#define SIZE_dfl_device_id 16 /* sizeof(struct dfl_device_id) */
+#define OFF_dfl_device_id_type 0 /* offsetof(struct dfl_device_id, type) */
+#define OFF_dfl_device_id_feature_id 2 /* offsetof(struct dfl_device_id, feature_id) */
+#define SIZE_ishtp_device_id 24 /* sizeof(struct ishtp_device_id) */
+#define OFF_ishtp_device_id_guid 0 /* offsetof(struct ishtp_device_id, guid) */
 
 #endif

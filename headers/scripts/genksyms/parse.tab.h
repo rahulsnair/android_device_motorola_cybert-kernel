@@ -1,8 +1,8 @@
-/* A Bison parser, made by GNU Bison 3.5.  */
+/* A Bison parser, made by GNU Bison 3.8.2.  */
 
 /* Bison interface for Yacc-like parsers in C
 
-   Copyright (C) 1984, 1989-1990, 2000-2015, 2018-2019 Free Software Foundation,
+   Copyright (C) 1984, 1989-1990, 2000-2015, 2018-2021 Free Software Foundation,
    Inc.
 
    This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
    GNU General Public License for more details.
 
    You should have received a copy of the GNU General Public License
-   along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
+   along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
 /* As a special exception, you may create a larger work that contains
    part or all of the Bison parser skeleton and distribute that work
@@ -31,8 +31,9 @@
    This special exception was added by the Free Software Foundation in
    version 2.2 of Bison.  */
 
-/* Undocumented macros, especially those whose name start with YY_,
-   are private implementation details.  Do not rely on them.  */
+/* DO NOT RELY ON FEATURES THAT ARE NOT DOCUMENTED in the manual,
+   especially those whose name start with YY_ or yy_.  They are
+   private implementation details that can be changed or removed.  */
 
 #ifndef YY_YY_SCRIPTS_GENKSYMS_PARSE_TAB_H_INCLUDED
 # define YY_YY_SCRIPTS_GENKSYMS_PARSE_TAB_H_INCLUDED
@@ -44,56 +45,63 @@
 extern int yydebug;
 #endif
 
-/* Token type.  */
+/* Token kinds.  */
 #ifndef YYTOKENTYPE
 # define YYTOKENTYPE
   enum yytokentype
   {
-    ASM_KEYW = 258,
-    ATTRIBUTE_KEYW = 259,
-    AUTO_KEYW = 260,
-    BOOL_KEYW = 261,
-    BUILTIN_INT_KEYW = 262,
-    CHAR_KEYW = 263,
-    CONST_KEYW = 264,
-    DOUBLE_KEYW = 265,
-    ENUM_KEYW = 266,
-    EXTERN_KEYW = 267,
-    EXTENSION_KEYW = 268,
-    FLOAT_KEYW = 269,
-    INLINE_KEYW = 270,
-    INT_KEYW = 271,
-    LONG_KEYW = 272,
-    REGISTER_KEYW = 273,
-    RESTRICT_KEYW = 274,
-    SHORT_KEYW = 275,
-    SIGNED_KEYW = 276,
-    STATIC_KEYW = 277,
-    STRUCT_KEYW = 278,
-    TYPEDEF_KEYW = 279,
-    UNION_KEYW = 280,
-    UNSIGNED_KEYW = 281,
-    VOID_KEYW = 282,
-    VOLATILE_KEYW = 283,
-    TYPEOF_KEYW = 284,
-    VA_LIST_KEYW = 285,
-    EXPORT_SYMBOL_KEYW = 286,
-    ASM_PHRASE = 287,
-    ATTRIBUTE_PHRASE = 288,
-    TYPEOF_PHRASE = 289,
-    BRACE_PHRASE = 290,
-    BRACKET_PHRASE = 291,
-    EXPRESSION_PHRASE = 292,
-    CHAR = 293,
-    DOTS = 294,
-    IDENT = 295,
-    INT = 296,
-    REAL = 297,
-    STRING = 298,
-    TYPE = 299,
-    OTHER = 300,
-    FILENAME = 301
+    YYEMPTY = -2,
+    YYEOF = 0,                     /* "end of file"  */
+    YYerror = 256,                 /* error  */
+    YYUNDEF = 257,                 /* "invalid token"  */
+    ASM_KEYW = 258,                /* ASM_KEYW  */
+    ATTRIBUTE_KEYW = 259,          /* ATTRIBUTE_KEYW  */
+    AUTO_KEYW = 260,               /* AUTO_KEYW  */
+    BOOL_KEYW = 261,               /* BOOL_KEYW  */
+    BUILTIN_INT_KEYW = 262,        /* BUILTIN_INT_KEYW  */
+    CHAR_KEYW = 263,               /* CHAR_KEYW  */
+    CONST_KEYW = 264,              /* CONST_KEYW  */
+    DOUBLE_KEYW = 265,             /* DOUBLE_KEYW  */
+    ENUM_KEYW = 266,               /* ENUM_KEYW  */
+    EXTERN_KEYW = 267,             /* EXTERN_KEYW  */
+    EXTENSION_KEYW = 268,          /* EXTENSION_KEYW  */
+    FLOAT_KEYW = 269,              /* FLOAT_KEYW  */
+    INLINE_KEYW = 270,             /* INLINE_KEYW  */
+    INT_KEYW = 271,                /* INT_KEYW  */
+    LONG_KEYW = 272,               /* LONG_KEYW  */
+    REGISTER_KEYW = 273,           /* REGISTER_KEYW  */
+    RESTRICT_KEYW = 274,           /* RESTRICT_KEYW  */
+    SHORT_KEYW = 275,              /* SHORT_KEYW  */
+    SIGNED_KEYW = 276,             /* SIGNED_KEYW  */
+    STATIC_KEYW = 277,             /* STATIC_KEYW  */
+    STATIC_ASSERT_KEYW = 278,      /* STATIC_ASSERT_KEYW  */
+    STRUCT_KEYW = 279,             /* STRUCT_KEYW  */
+    TYPEDEF_KEYW = 280,            /* TYPEDEF_KEYW  */
+    UNION_KEYW = 281,              /* UNION_KEYW  */
+    UNSIGNED_KEYW = 282,           /* UNSIGNED_KEYW  */
+    VOID_KEYW = 283,               /* VOID_KEYW  */
+    VOLATILE_KEYW = 284,           /* VOLATILE_KEYW  */
+    TYPEOF_KEYW = 285,             /* TYPEOF_KEYW  */
+    VA_LIST_KEYW = 286,            /* VA_LIST_KEYW  */
+    EXPORT_SYMBOL_KEYW = 287,      /* EXPORT_SYMBOL_KEYW  */
+    ASM_PHRASE = 288,              /* ASM_PHRASE  */
+    ATTRIBUTE_PHRASE = 289,        /* ATTRIBUTE_PHRASE  */
+    TYPEOF_PHRASE = 290,           /* TYPEOF_PHRASE  */
+    BRACE_PHRASE = 291,            /* BRACE_PHRASE  */
+    BRACKET_PHRASE = 292,          /* BRACKET_PHRASE  */
+    EXPRESSION_PHRASE = 293,       /* EXPRESSION_PHRASE  */
+    STATIC_ASSERT_PHRASE = 294,    /* STATIC_ASSERT_PHRASE  */
+    CHAR = 295,                    /* CHAR  */
+    DOTS = 296,                    /* DOTS  */
+    IDENT = 297,                   /* IDENT  */
+    INT = 298,                     /* INT  */
+    REAL = 299,                    /* REAL  */
+    STRING = 300,                  /* STRING  */
+    TYPE = 301,                    /* TYPE  */
+    OTHER = 302,                   /* OTHER  */
+    FILENAME = 303                 /* FILENAME  */
   };
+  typedef enum yytokentype yytoken_kind_t;
 #endif
 
 /* Value type.  */
@@ -106,6 +114,8 @@ typedef int YYSTYPE;
 
 extern YYSTYPE yylval;
 
+
 int yyparse (void);
+
 
 #endif /* !YY_YY_SCRIPTS_GENKSYMS_PARSE_TAB_H_INCLUDED  */
