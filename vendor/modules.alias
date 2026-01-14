@@ -1,9 +1,4 @@
 # Aliases extracted from modules themselves.
-alias ghealth_driver:SPI/I2C goodix_ppg_mmi
-alias of:N*T*Cgoodix,health goodix_ppg_mmi
-alias of:N*T*Cgoodix,healthC* goodix_ppg_mmi
-alias of:N*T*Cgoodix,fingerprintree goodix_ppg_mmi
-alias of:N*T*Cgoodix,fingerprintreeC* goodix_ppg_mmi
 alias i2c:tfa9874 mtk_sp_spk_amp
 alias i2c:speaker_amp mtk_sp_spk_amp
 alias of:N*T*Cmediatek,speaker_amp mtk_sp_spk_amp
@@ -51,11 +46,9 @@ alias of:N*T*Cmediatek,camera-pda pda_drv_mt6897
 alias of:N*T*Cmediatek,camera-pdaC* pda_drv_mt6897
 alias of:N*T*Cmediatek,camera-pda2 pda_drv_mt6897
 alias of:N*T*Cmediatek,camera-pda2C* pda_drv_mt6897
-alias i2c:mot_dw9784 mot_dw9784
-alias of:N*T*Cmediatek,mot_dw9784 mot_dw9784
-alias of:N*T*Cmediatek,mot_dw9784C* mot_dw9784
 alias of:N*T*Cmediatek,imgsys mtk_imgsys_v4l2
 alias of:N*T*Cmediatek,imgsysC* mtk_imgsys_v4l2
+alias i2c:awinic_sar awinic_sar
 alias of:N*T*Cmediatek,gpueb gpueb
 alias of:N*T*Cmediatek,gpuebC* gpueb
 alias of:N*T*Cmediatek,mt6368-sound snd_soc_mt6368
@@ -122,6 +115,9 @@ alias of:N*T*Cmediatek,mt6363-dynamic_loading_throttling mtk_dynamic_loading_thr
 alias of:N*T*Cmediatek,mt6363-dynamic_loading_throttlingC* mtk_dynamic_loading_throttling
 alias of:N*T*Cmediatek,mt6377-dynamic_loading_throttling mtk_dynamic_loading_throttling
 alias of:N*T*Cmediatek,mt6377-dynamic_loading_throttlingC* mtk_dynamic_loading_throttling
+alias spi:gf_spi goodix_fod_mmi_u
+alias of:N*T*Cgoodix,goodix-fp goodix_fod_mmi_u
+alias of:N*T*Cgoodix,goodix-fpC* goodix_fod_mmi_u
 alias of:N*T*Cst,st21nfc st54lnfc
 alias of:N*T*Cst,st21nfcC* st54lnfc
 alias of:N*T*Cmediatek,mt8173-vcu mtk_vcu
@@ -147,9 +143,8 @@ alias of:N*T*Cmediatek,scpsys-disable-unusedC* mtk_pm_domain_disable_unused
 alias i2c:imgsensor imgsensor
 alias of:N*T*Cmediatek,imgsensor imgsensor
 alias of:N*T*Cmediatek,imgsensorC* imgsensor
-alias i2c:aw36518 aw36518
-alias of:N*T*Cmediatek,aw36518 aw36518
-alias of:N*T*Cmediatek,aw36518C* aw36518
+alias i2c:cps_wls_charger cps4038_mmi
+alias i2c:cps-wls-charger cps4038_mmi
 alias of:N*T*Cmediatek,mt6983-virtual-tskin vtskin_temp
 alias of:N*T*Cmediatek,mt6983-virtual-tskinC* vtskin_temp
 alias of:N*T*Cmediatek,mt6985-virtual-tskin vtskin_temp
@@ -238,6 +233,9 @@ alias of:N*T*Cmediatek,drm_wv widevine_driver
 alias of:N*T*Cmediatek,drm_wvC* widevine_driver
 alias of:N*T*Cmediatek,snd-audio-dsp snd_soc_audiodsp_common
 alias of:N*T*Cmediatek,snd-audio-dspC* snd_soc_audiodsp_common
+alias i2c:sx937x sx937x_sar
+alias of:N*T*Chall,hall_phone_case_detect hall_phone_case
+alias of:N*T*Chall,hall_phone_case_detectC* hall_phone_case
 alias of:N*T*Cmediatek,mt6359-pmic-temp pmic_temp
 alias of:N*T*Cmediatek,mt6359-pmic-tempC* pmic_temp
 alias of:N*T*Cmediatek,mt6363-pmic-temp pmic_temp
@@ -284,9 +282,9 @@ alias of:N*T*Cmediatek,mtk_composite_v4l2_1C* mtk_composite
 alias net-pf-16-proto-16-family-nl80211 cfg80211
 alias of:N*T*Cmediatek,usb-offload usb_offload
 alias of:N*T*Cmediatek,usb-offloadC* usb_offload
-alias of:N*T*Cfpc,fpc_spi fpc_mtk_tee
-alias of:N*T*Cfpc,fpc_spiC* fpc_mtk_tee
 alias usbfunc:mtk_rndis mtk_usb_f_rndis
+alias of:N*T*Cmoto,mmi_stow mmi_stow
+alias of:N*T*Cmoto,mmi_stowC* mmi_stow
 alias of:N*T*Cmediatek,flashlight_core flashlight
 alias of:N*T*Cmediatek,flashlight_coreC* flashlight
 alias of:N*T*Cmediatek,ccd mtk_ccd_remoteproc
@@ -413,6 +411,9 @@ alias of:N*T*Cmediatek,lm3643 lm3643
 alias of:N*T*Cmediatek,lm3643C* lm3643
 alias of:N*T*Cmediatek,gpu-power-throttling mtk_gpu_power_throttling
 alias of:N*T*Cmediatek,gpu-power-throttlingC* mtk_gpu_power_throttling
+alias i2c:sgm37864 sgm37864
+alias of:N*T*Cmediatek,sgm37864 sgm37864
+alias of:N*T*Cmediatek,sgm37864C* sgm37864
 alias of:N*T*Cmediatek,mt6878-spmi-pmif-mpu spmi_mtk_mpu
 alias of:N*T*Cmediatek,mt6878-spmi-pmif-mpuC* spmi_mtk_mpu
 alias of:N*T*Cmediatek,mt6886-spmi_pmif_mpu spmi_mtk_mpu

@@ -142,7 +142,7 @@ hf_manager.ko
 sensorhub.ko
 mtk-composite.ko
 lm3643.ko
-aw36518.ko
+sgm37864.ko
 flashlight.ko
 gz_trusty_mod.ko
 gz_ipc_mod.ko
@@ -161,7 +161,6 @@ camera_af_media.ko
 main_vcm.ko
 main2_vcm.ko
 main3_vcm.ko
-mot_dw9784.ko
 mot_tele_dw9784.ko
 sub_vcm.ko
 pda_drv_mt6897.ko
